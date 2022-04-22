@@ -67,7 +67,7 @@
 6. On your VM run `systemctl restart sshd` to restart the SSH service.
 7. Clone this repo and run `cd 42-Born2beRoot/install`.
 8. Open your terminal and run `scp -P 1024 * your42username@127.0.0.1:/tmp` then enter your password.
-9. Go back to your VM and run `cd/tmp && bash setup.sh` to execute the setup script. Enter your 42username and wait untill the installation is finished and the server is restarted.
+9. Go back to your VM and run `cd /tmp && bash setup.sh` to execute the setup script. Enter your 42username and wait untill the installation is finished and the server is restarted.
 10. Once installation is completed don't forget to change the root and 42username account's password by running `passwd <username>`.
 
 ### Retrieve Signature of your Machine’s Virtual Disk (cf. [`subject`](Born2beRoot.pdf))
